@@ -1,0 +1,15 @@
+import java.util.*;
+public class Exce{
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		try{
+		
+		int n=s.nextInt();
+        double avg = 1234.52/n;
+		System.out.println("Hello World");
+	}
+	    catch(Exception e){
+	        System.out.println("hello");
+	    }
+	}
+}
